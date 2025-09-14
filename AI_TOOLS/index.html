@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Tools Hub - Advanced AI Solutions for Creators</title>
+  <meta name="description" content="Discover powerful AI tools including image generators, text summarizers, and advanced chatbots. Transform your workflow with cutting-edge AI technology.">
+  <meta name="author" content="AI Tools Hub">
+  
+  <meta property="og:title" content="AI Tools Hub - Advanced AI Solutions for Creators">
+  <meta property="og:description" content="Discover powerful AI tools including image generators, text summarizers, and advanced chatbots. Transform your workflow with cutting-edge AI technology.">
+  <meta property="og:type" content="website">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark">
+  <!-- Falling Stars Background -->
+  <div class="stars-container" id="starsContainer"></div>
+  
+  <!-- Theme Toggle -->
+  <button class="theme-toggle" id="themeToggle">
+    <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <circle cx="12" cy="12" r="5"/>
+      <line x1="12" y1="1" x2="12" y2="3"/>
+      <line x1="12" y1="21" x2="12" y2="23"/>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+      <line x1="1" y1="12" x2="3" y2="12"/>
+      <line x1="21" y1="12" x2="23" y2="12"/>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+    </svg>
+    <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+    </svg>
+  </button>
+  
+  <!-- Main Content -->
+  <div class="container">
+    <!-- Hero Section -->
+    <div class="hero-section">
+      <h1 class="hero-title floating">
+        <span class="gradient-text">AI Tools</span>
+        <br>
+        <span class="hero-subtitle">Hub</span>
+      </h1>
+      <p class="hero-description">
+        Discover powerful AI tools that transform your workflow.
+        <br>
+        <span class="highlight-text">Create, analyze, and innovate</span> with cutting-edge technology.
+      </p>
+      
+      <!-- Animated Gradient Line -->
+      <div class="gradient-line pulse-glow"></div>
+    </div>
+
+    <!-- AI Tools Grid -->
+    <div class="tools-grid">
+      <!-- AI Image Generator -->
+      <div class="tool-card glass hover-glow magnetic animate-fade-in" data-delay="0">
+        <div class="card-content">
+          <div class="image-container">
+            <img src="image copy.png" alt="AI Image Generator" class="tool-image">
+            <div class="image-overlay"></div>
+          </div>
+          
+          <div class="tool-info">
+            <div class="tool-header">
+              <span class="tool-icon">🎨</span>
+              <h3 class="tool-title">AI Image Generator</h3>
+            </div>
+            
+            <p class="tool-description">
+              Create stunning images instantly using AI. Upload prompts and get creative results in seconds with advanced neural networks.
+            </p>
+
+            <button class="launch-btn" onclick="window.open('https://ai-meeting-image-app-1.onrender.com', '_blank')">
+              Launch Tool
+            </button>       
+          </div>
+        </div>
+        <div class="card-bg-effect"></div>
+      </div>
+
+      <!-- AI Summarizer -->
+      <div class="tool-card glass hover-glow magnetic animate-fade-in" data-delay="0.2">
+        <div class="card-content">
+          <div class="image-container">
+            <img src="2025-08-27 (5).png" alt="AI Summarizer" class="tool-image">
+            <div class="image-overlay"></div>
+          </div>
+          
+          <div class="tool-info">
+            <div class="tool-header">
+              <span class="tool-icon">📝</span>
+              <h3 class="tool-title">AI Summarizer</h3>
+            </div>
+            
+            <p class="tool-description">
+              Summarize long articles, research papers, or documents into concise, easy-to-read summaries using advanced NLP.
+            </p>
+
+            <button class="launch-btn" onclick="window.open('https://ai-meeting-summarizer-o4yy.onrender.com', '_blank')">
+              Launch Tool
+            </button>
+          </div>
+        </div>
+        <div class="card-bg-effect"></div>
+      </div>
+
+      <!-- SigmaGPT -->
+      <div class="tool-card glass hover-glow magnetic animate-fade-in" data-delay="0.4">
+        <div class="card-content">
+          <div class="image-container">
+            <img src="image.png" alt="SigmaGPT" class="tool-image">
+            <div class="image-overlay"></div>
+          </div>
+          
+          <div class="tool-info">
+            <div class="tool-header">
+              <span class="tool-icon">🤖</span>
+              <h3 class="tool-title">SigmaGPT</h3>
+            </div>
+            
+            <p class="tool-description">
+              Chat with an advanced AI assistant that helps you with problem-solving, coding, and creative brainstorming sessions.
+            </p>
+
+            <button class="launch-btn" onclick="window.open('http://localhost:5173/', '_blank')">
+              Launch Tool
+            </button>
+          </div>
+        </div>
+        <div class="card-bg-effect"></div>
+      </div>
+
+      <!-- AI Recipe Generator -->
+      <div class="tool-card glass hover-glow magnetic animate-fade-in" data-delay="0.6">
+        <div class="card-content">
+          <div class="image-container">
+            <img src="image copy 2.png" alt="AI Recipe Generator" class="tool-image">
+            <div class="image-overlay"></div>
+          </div>
+          
+          <div class="tool-info">
+            <div class="tool-header">
+              <span class="tool-icon">🍲</span>
+              <h3 class="tool-title">AI Recipe Generator</h3>
+            </div>
+            
+            <p class="tool-description">
+              Enter the ingredients you have at home and generate delicious, creative recipes instantly using AI-powered culinary intelligence.
+            </p>
+
+            <button class="launch-btn" onclick="window.open('http://localhost:5173/', '_blank')">
+              Launch Tool
+            </button>
+          </div>
+        </div>
+        <div class="card-bg-effect"></div>
+      </div>
+    </div>
+
+    <!-- Bottom Section -->
+    <div class="bottom-section animate-fade-in">
+      <div class="bottom-card glass hover-glow">
+        <h2 class="bottom-title gradient-text">Ready to Explore?</h2>
+        <p class="bottom-description">
+          Join thousands of users who are already transforming their work with AI
+        </p>
+        <div class="feature-tags">
+          <div class="feature-tag primary">
+            ✨ Real-time Processing
+          </div>
+          <div class="feature-tag accent">
+            🚀 Lightning Fast
+          </div>
+          <div class="feature-tag secondary">
+            🔒 Secure & Private
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Background Effects -->
+  <div class="bg-effects">
+    <div class="bg-gradient"></div>
+    <div class="bg-orb bg-orb-1"></div>
+    <div class="bg-orb bg-orb-2"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
