@@ -1,0 +1,109 @@
+<!-- <!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI Recipe Generator</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>🍳 AI Recipe Generator</h1>
+      <p>Type what you have at home and get a complete recipe.</p>
+    </header>
+
+    <section class="card">
+      <label for="ingredients">Ingredients (comma-separated)</label>
+      <input id="ingredients" type="text" placeholder="eg. tomatoes, eggs, onion, spinach" />
+      <div class="row">
+        <div class="field">
+          <label for="servings">Servings</label>
+          <input id="servings" type="number" min="1" placeholder="2" />
+        </div>
+        <div class="field">
+          <label for="diet">Diet (optional)</label>
+          <input id="diet" type="text" placeholder="vegetarian, vegan, gluten-free..." />
+        </div>
+        <div class="field">
+          <label for="cuisine">Cuisine (optional)</label>
+          <input id="cuisine" type="text" placeholder="Indian, Italian, Mexican..." />
+        </div>
+      </div>
+      <button id="generate">Generate Recipe</button>
+      <p id="status" class="muted"></p>
+    </section>
+
+    <section id="result" class="card hidden">
+      <div id="picked">
+        <img id="picked-img" alt="" />
+        <h2 id="picked-title"></h2>
+      </div>
+      <article id="recipe-markdown"></article>
+    </section>
+
+    <footer>
+      <p class="muted">Powered by Spoonacular + OpenAI</p>
+    </footer>
+  </div>
+
+  <script src="/main.js"></script>
+</body>
+</html> -->
+
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI Recipe Generator</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="falling-veggies"></div> <!-- background falling veggies -->
+
+  <div class="app">
+    <header>
+      <img src="/hero-recipe.png" alt="Cooking Hero" class="hero-img" />
+      <h1>🍳 AI Recipe Generator</h1>
+      <p>Type what you have at home and get a complete recipe instantly.</p>
+    </header>
+
+    <section class="card">
+      <label for="ingredients">Ingredients (comma-separated)</label>
+      <input id="ingredients" type="text" placeholder="eg. tomatoes, eggs, onion, spinach" />
+      <div class="row">
+        <div class="field">
+          <label for="servings">Servings</label>
+          <input id="servings" type="number" min="1" placeholder="2" />
+        </div>
+        <div class="field">
+          <label for="diet">Diet (optional)</label>
+          <input id="diet" type="text" placeholder="vegetarian, vegan, gluten-free..." />
+        </div>
+        <div class="field">
+          <label for="cuisine">Cuisine (optional)</label>
+          <input id="cuisine" type="text" placeholder="Indian, Italian, Mexican..." />
+        </div>
+      </div>
+      <button id="generate">Generate Recipe</button>
+      <p id="status" class="muted"></p>
+    </section>
+
+    <section id="result" class="card hidden">
+      <div id="picked">
+        <img id="picked-img" alt="" />
+        <h2 id="picked-title"></h2>
+      </div>
+      <article id="recipe-markdown"></article>
+    </section>
+
+    <footer>
+      <p class="muted">Powered by Spoonacular + OpenRouter</p>
+    </footer>
+  </div>
+
+  <script src="/main.js"></script>
+</body>
+</html>
