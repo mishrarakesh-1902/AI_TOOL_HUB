@@ -1,0 +1,78 @@
+/* Chats container */
+.chats {
+    max-width: 700px;
+    max-height: 80vh;   /* ✅ allow scrolling */
+    overflow-y: auto;
+    padding: 6rem 2rem;
+    background: transparent;
+    font-family: 'Poppins', sans-serif;
+    color: #e0e0e0;
+}
+
+/* User messages wrapper */
+.userDiv {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+}
+
+/* GPT messages wrapper */
+.gptDiv {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+}
+
+/* User message bubble */
+.userMessage {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    padding: 12px 20px;
+    border-radius: 18px 18px 4px 18px;
+    margin-left: 10rem;
+    max-width: 500px;
+    width: fit-content;
+    color: #fff;
+    box-shadow: 0 4px 15px rgba(37, 117, 252, 0.4);
+    transition: 0.3s ease-in-out;
+}
+
+.userMessage:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(37, 117, 252, 0.6);
+}
+
+/* GPT message bubble */
+.gptMessage {
+    background: linear-gradient(135deg, #232526, #414345);
+    padding: 12px 20px;
+    border-radius: 18px 18px 18px 4px;
+    max-width: 500px;
+    width: fit-content;
+    color: #e0e0e0;
+    box-shadow: 0 4px 15px rgba(128, 90, 213, 0.4);
+    transition: 0.3s ease-in-out;
+}
+
+.gptMessage:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(128, 90, 213, 0.6);
+}
+
+/* Code blocks inside messages */
+.hljs {
+    border-radius: 14px !important;
+    background: #1e1e2f !important;
+    color: #e6e6e6;
+    padding: 1rem;
+    box-shadow: inset 0 0 12px rgba(128, 90, 213, 0.2);
+    overflow-x: auto;
+}
+
+pre {
+    white-space: pre-wrap;
+    font-family: 'Fira Code', monospace;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
